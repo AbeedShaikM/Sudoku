@@ -1,0 +1,136 @@
+/* .grid {
+    width: 451px;
+    height: max-content;
+    box-sizing:border-box;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(174, 168, 168);
+    border:2px solid black;
+}
+.flex-box{
+    margin-left:-1px;
+    display:flex;
+    height:50px!important;
+    height:max-content;
+}
+input {
+    width: 50px;
+    height: 50px;
+    font-size: 25px!important;
+    border-radius: 0px;
+    border: 1px solid black;
+    border-left:0px;
+    text-align: center;
+}
+input:enabled:focus {
+    outline: none;
+}*/
+/* input::selection{
+    outline:none;
+    border-radius:none;
+} */
+/* p:first-child{
+    border-left: 1px solid black;
+} */
+/* .table{
+    width:450px;
+    height:450px;
+    border:0px;
+} */
+
+.block {
+    width: 150px;
+    height: 150px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+.warn{
+    width:450px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.flex-box {
+    margin-left: -1px;
+    margin-top: -1px;
+    display: flex;
+    height: 50px;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 25px!important;
+    font-weight: 600;
+}
+
+input:enabled:focus {
+    background-color: rgb(148, 144, 144);
+    outline: none;
+}
+
+.flex-box1 {
+    display: flex;
+}
+.sudoku {
+    margin-top:50px;
+    width: 450px;
+    height: 450px;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    box-shadow: 2px 2px 2px 2px rgb(159, 164, 210);
+}
+div p{
+    margin:0px;
+}
+.r-9{
+    border-bottom:4px solid black;
+}
+.c-9{
+    border-right:4px solid black;
+}
+.b-1,.b-3,.b-5,.b-7,.b-9{
+    background-color: rgb(239, 239, 239);
+}
+.flex-box2{
+margin-top:20px;
+display:flex;
+width:450px;
+}
+.input-b{
+    width:46px;
+    height:50px;
+    box-sizing: border-box;
+    margin:2px;
+    position:relative;
+}
+button{
+    width:46px;
+    height:45px;
+    font-size: 25px!important;
+    border-radius:2px;
+}
+.rem{
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    font-size: x-small;
+}
+.menu-b{
+    width:100px;
+    height:60px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.start-btn{
+    width:100px;
+}
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
