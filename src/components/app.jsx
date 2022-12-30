@@ -182,10 +182,10 @@ function app() {
             }
             swap(80 - i, r);
         }
-        let f = 0;
-        for (let i = 0; i < 81; i++) {
-            if (canRemove[i]) f++;
-        }
+        // let f = 0;
+        // for (let i = 0; i < 81; i++) {
+        //     if (canRemove[i]) f++;
+        // }
         // let block=new Array(9);
         // for(let i=0;i<block.length;i++){
         //     block[i]=new Array(9);
@@ -367,7 +367,7 @@ function app() {
     function handleClick(xy) {
         // console.log(event);
         let key = xy;
-        if (clickedInput.key == 0) {
+        if (clickedInput.key === 0) {
             return 0;
         }
         else if (!((clickedInput.value) < 10 && (clickedInput.value) > 0)) {
@@ -434,5 +434,3 @@ function app() {
         <div className="flex-box2 mx-auto"><button className="mx-auto start-btn" onClick={startTheGame}>Start</button></div></div>
 }
 export default app;
-
-{/* <HomeIcon fontSize="large" /> */ }
