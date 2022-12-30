@@ -1,5 +1,5 @@
 import React from 'react';
-import puzzle from '../puzzle';
+// import puzzle from '../puzzle';
 // import puzzle from '../puzzle';
 // import Puzzle, { array, arr } from '../puzzle';
 // import ModeIcon from '@mui/icons-material/Mode';
@@ -7,7 +7,6 @@ import puzzle from '../puzzle';
 // import UndoIcon from '@mui/icons-material/Undo'
 // import ClearIcon from '@mui/icons-material/Clear';
 // import Button from '@mui/material/Button'
-
 import Button from './button';
 import Rows from "./rows";
 function app() {
