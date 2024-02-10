@@ -1,12 +1,4 @@
 import React from 'react';
-// import puzzle from '../puzzle';
-// import puzzle from '../puzzle';
-// import Puzzle, { array, arr } from '../puzzle';
-// import ModeIcon from '@mui/icons-material/Mode';
-// import TungstenIcon from '@mui/icons-material/Tungsten';
-// import UndoIcon from '@mui/icons-material/Undo'
-// import ClearIcon from '@mui/icons-material/Clear';
-// import Button from '@mui/material/Button'
 import Button from './button';
 import Rows from "./rows";
 function app() {
@@ -43,7 +35,6 @@ function app() {
     function populate(a) {
         for (let i = 0; i < 9; i++) {
             let r = Math.floor((Math.random() * 9) + 1);
-            // console.log(r);
             if (isValid(a, r, i)) {
                 // block[a]=[];
                 block[a][i] = r;

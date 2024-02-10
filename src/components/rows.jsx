@@ -5,4 +5,5 @@ function rows(props) {
         <Block row={props.row} block="1" inputChange={props.inputset} /><Block row={props.row} block="2" inputChange={props.inputset} /><Block row={props.row} block="3" inputChange={props.inputset} />
     </div>
 }
+
 export default rows;
